@@ -41,4 +41,11 @@ class HelloController
        {
            return new Response('Olá insetos!');
        }
+
+        /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+        #[Route('/aves')]
+        public function aves(): Response
+        {
+            return new Response('Olá aves!');
+        }
 }
