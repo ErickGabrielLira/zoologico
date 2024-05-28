@@ -22,37 +22,44 @@ class HelloController
     }
 
      /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
-     #[Route('/mamifero')]
-     public function mamifero(): Response
-     {
-         return new Response('Olá mamifero!');
-     }
+    #[Route('/mamifero')]
+    public function mamifero(): Response
+    {
+        return new Response('Olá mamifero!');
+    }
 
-      /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
-      #[Route('/invertebrados')]
-      public function invertebrados(): Response
-      {
-          return new Response('Olá invertebrados!');
-      }
+    /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+    #[Route('/invertebrados')]
+    public function invertebrados(): Response
+    {
+        return new Response('Olá invertebrados!');
+    }
 
-       /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
-       #[Route('/insetos')]
-       public function insetos(): Response
-       {
-           return new Response('Olá insetos!');
-       }
+    /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+    #[Route('/insetos')]
+    public function insetos(): Response
+    {
+        return new Response('Olá insetos!');
+    }
 
-        /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
-        #[Route('/aves')]
-        public function aves(): Response
-        {
-            return new Response('Olá aves!');
-        }
+    /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+    #[Route('/aves')]
+    public function aves(): Response
+    {
+        return new Response('Olá aves!');
+    }
 
-         /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
-         #[Route('/felinos')]
-         public function felinos(): Response
-         {
-             return new Response('Olá felinos!');
-         }
+    /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+    #[Route('/felinos')]
+    public function felinos(): Response
+    {
+        return new Response('Olá felinos!');
+    }
+
+    /* Definindo rota para a classe #Route, com isso vai abrir o "use" acima   */
+    #[Route('/caninos')]
+    public function caninos(): Response
+    {
+        return new Response('Olá caninos!');
+    }
 }
